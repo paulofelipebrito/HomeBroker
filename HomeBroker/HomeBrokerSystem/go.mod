@@ -1,4 +1,4 @@
-module github.com/paulofelipebrito/HomeBroker
+module github.com/paulofelipebrito/HomeBroker/HomeBroker/HomeBrokerSystem
 
 go 1.20
 
