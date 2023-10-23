@@ -13,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className="bg-gray-900 h-screen flex flex-col">
+    <html lang="en">
+      <body className="bg-gray-900 h-screen flex flex-col" suppressHydrationWarning={true} >
         <DefaultNavbar />
         <FlowbiteContext>{children}</FlowbiteContext>
       </body>

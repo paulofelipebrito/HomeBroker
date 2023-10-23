@@ -4,6 +4,12 @@ export type Asset = {
   price: string;
 };
 
+export type Wallet = {
+  id: string;
+  walletAssets: WalletAsset[];
+  orders: Order[]
+}
+
 export type WalletAsset = {
   id: string;
   wallet_id: string;

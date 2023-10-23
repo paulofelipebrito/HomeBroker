@@ -47,7 +47,7 @@ export const AssetChartComponent = (props: { asset_id: string }) => {
     },
     {}
   );
-
+console.log(chartRef)
   return (
     <ChartComponent
       header={`${props.asset_id} - R$ ${asset.price}`}
